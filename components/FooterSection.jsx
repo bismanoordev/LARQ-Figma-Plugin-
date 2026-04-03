@@ -1,8 +1,8 @@
 export default function FooterSection() {
   return (
-    <div className="bg-[#133A5B] w-full py-[80px] flex flex-col items-center justify-center">
+    <footer className="flex w-full flex-col items-center justify-center bg-[#133A5B] px-4 py-[60px] sm:px-6 sm:py-[70px] lg:px-8 lg:py-[80px]">
       {/* Navigation Columns */}
-      <div className="flex gap-[120px] justify-center w-full max-w-[1200px] mb-[60px]">
+      <div className="grid w-full max-w-[1200px] grid-cols-2 gap-x-8 gap-y-10 md:grid-cols-4 md:gap-x-14 lg:gap-x-[120px] mb-[50px] sm:mb-[60px]">
         <div className="flex flex-col gap-[25px]">
           <p className="text-[#FFF] font-notoSansJP text-[13px] font-bold">
             プロダクト
@@ -82,7 +82,7 @@ export default function FooterSection() {
       <div className="border-t border-[#FFF]/20 w-full max-w-[1200px] mb-[40px]"></div>
 
       {/* Footer Bottom Section */}
-      <div className="flex flex-col items-start gap-[10px] mb-[40px] w-full max-w-[1200px] px-10">
+      <div className="flex w-full max-w-[1200px] flex-col items-start gap-[10px] px-1 sm:px-4 lg:px-10 mb-[40px]">
         <p className="text-[#FFF] font-inter text-xs">
           © 2023, LARQ Official Website. All Rights Reserved.
         </p>
@@ -97,7 +97,7 @@ export default function FooterSection() {
       </div>
 
       {/* Social Icons */}
-      <div className="flex gap-[30px] items-center justify-center w-full mb-[30px]">
+      <div className="flex w-full items-center justify-center gap-[24px] sm:gap-[30px] mb-[24px] sm:mb-[30px]">
         {/* Facebook */}
         <div className="w-[21px] h-[21px] cursor-pointer hover:opacity-80 transition-opacity">
           <svg
@@ -196,13 +196,13 @@ export default function FooterSection() {
       </div>
 
       {/* Footer Links */}
-      <div className="flex gap-2 items-center justify-center text-[#FFF] font-notoSansJP text-[11px]">
+      <div className="flex items-center justify-center gap-2 text-center text-[#FFF] font-notoSansJP text-[10px] sm:text-[11px]">
         <span className="cursor-pointer hover:opacity-80">
           利用規約とプライバシーポリシー
         </span>
         <span>｜</span>
         <span className="cursor-pointer hover:opacity-80">サイトポリシー</span>
       </div>
-    </div>
+    </footer>
   );
 }

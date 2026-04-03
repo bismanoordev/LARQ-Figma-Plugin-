@@ -10,24 +10,24 @@ export default function DualSectionRow() {
           />
           <div className="absolute inset-0 flex items-start justify-end p-5 sm:p-6">
             <div className="flex h-full w-[50%] flex-col text-[#153A5B] font-notoSansJP">
-              <h3 className="text-[44px] font-semibold leading-[1.08]">
+              <h3 className="text-[34px] font-semibold leading-[1.08] sm:text-[40px] lg:text-[44px]">
                 LARQ Bottle
                 <br />
                 Filtered
               </h3>
-              <p className="mt-2 text-[14px] leading-6">
+              <p className="mt-2 text-[12px] leading-5 sm:text-[13px] sm:leading-5.5 lg:text-[14px] lg:leading-6">
                 (ボトルフィルター)
                 <br />
                 浄水フィルター付き
                 <br />
                 ウォーターボトル
               </p>
-              <p className="mt-6 text-[14px] leading-7 text-[#4d5b69]">
+              <p className="mt-4 text-[12px] leading-5.5 text-[#4d5b69] sm:mt-5 sm:text-[13px] sm:leading-6 lg:mt-6 lg:text-[14px] lg:leading-7">
                 水分補給方法をあなたの
                 <br />
                 手の中に。
               </p>
-              <p className="mt-auto pb-2 text-right text-[14px] font-semibold leading-none">
+              <p className="mt-auto pb-1 text-right text-[12px] font-semibold leading-none sm:pb-2 sm:text-[13px] lg:text-[14px]">
                 詳しくはこちら
               </p>
             </div>

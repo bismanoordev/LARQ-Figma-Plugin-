@@ -22,7 +22,7 @@ function InfoCard({ title, subtitle, description, note, buttonLabel }) {
         <p className="mt-6 font-notoSansJP text-[14px] font-bold leading-6 sm:text-base">
           {description}
         </p>
-        <p className="mt-4 font-notoSansJP text-[13px] leading-6 sm:text-sm sm:leading-[25.2px] text-[#153A5B]">
+        <p className="mt-4 break-words font-notoSansJP text-[13px] leading-6 text-[#153A5B] sm:text-sm sm:leading-[25.2px]">
           {note}
         </p>
       </div>
