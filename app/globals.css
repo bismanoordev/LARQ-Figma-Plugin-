@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-notoSansJP: var(--font-noto-sans-jp);
+  --font-inter: var(--font-inter);
+}
